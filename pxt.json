@@ -1,8 +1,11 @@
 {
-    "name": "PAC-GUY AND THE RACE AGAINST TIME",
+    "name": "PAC-GUY AND THE RACE AGAINST TIME - Copy - Copy",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2"
     },
     "files": [
         "main.blocks",
@@ -12,7 +15,8 @@
         "tilemap.g.jres",
         "tilemap.g.ts",
         "images.g.jres",
-        "images.g.ts"
+        "images.g.ts",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"

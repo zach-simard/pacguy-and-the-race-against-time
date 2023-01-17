@@ -63,7 +63,7 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16], TileScale.Sixteen);
             case "MAP":
-            case "MAP1":return tiles.createTilemap(hex`100010000b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0c0101010101010101010101010c0b0b01010101010101010101010101010b0b01010209080101010102090801010b0b0101030a0701010101030a0701010b0b01010405060101010104050601010b0b01010101010101010101010101010b0b01010101010101010101010101010b0b01010101010101010101010101010b0b01010101010101010101010101010b0b01010209080101010102090801010b0b0101030a0701010101030a0701010b0b01010405060101010104050601010b0b01010101010101010101010101010b0b0c0101010101010101010101010c0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b`, img`
+            case "MAP1":return tiles.createTilemap(hex`100010000b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b150f101110111212111011100f150b0b11101111111112121011111001120b0b11110209081112121202090811120b0b1212030a0710111210030a0711100b0b11120405061212111104050611120b0b12101111121110121111111110110b0b13141314131413141314131413140b0b14131413141314131413141314130b0b0e0c0e0c0e0c0e0d0c0c0e0c0e0c0b0b0d0e0209080d0e0c0c0209080c0d0b0b0e0c030a070e0c0c0c030a070e0c0b0b0c0c0405060c0c0d0e0405060c0e0b0b0f0d0c0e0c0d0c0e0c0e0c0e0c0f0b0b150d0c0e0d0c0c0c0e0d0e0d0e150b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b`, img`
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
 2 . . . . . . . . . . . . . . 2 
 2 . . . . . . . . . . . . . . 2 
@@ -80,7 +80,7 @@ namespace myTiles {
 2 . . . . . . . . . . . . . . 2 
 2 . . . . . . . . . . . . . . 2 
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-`, [myTiles.transparency16,sprites.castle.tilePath5,sprites.builtin.forestTiles5,sprites.builtin.forestTiles9,sprites.builtin.forestTiles13,sprites.builtin.forestTiles14,sprites.builtin.forestTiles15,sprites.builtin.forestTiles11,sprites.builtin.forestTiles7,sprites.builtin.forestTiles6,sprites.builtin.forestTiles10,sprites.builtin.brick,sprites.dungeon.doorClosedNorth], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.castle.tilePath5,sprites.builtin.forestTiles5,sprites.builtin.forestTiles9,sprites.builtin.forestTiles13,sprites.builtin.forestTiles14,sprites.builtin.forestTiles15,sprites.builtin.forestTiles11,sprites.builtin.forestTiles7,sprites.builtin.forestTiles6,sprites.builtin.forestTiles10,sprites.builtin.brick,sprites.castle.tileDarkGrass3,sprites.castle.tileDarkGrass2,sprites.castle.tileDarkGrass1,sprites.builtin.forestTiles0,sprites.castle.tileGrass2,sprites.castle.tileGrass1,sprites.castle.tileGrass3,sprites.dungeon.darkGroundWest,sprites.dungeon.floorLight5,sprites.dungeon.collectibleRedCrystal], TileScale.Sixteen);
         }
         return null;
     })
