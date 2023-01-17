@@ -1,6 +1,6 @@
 function TitleScreen () {
     music.playMelody("E B C5 A B G A F ", 240)
-    game.splash("Welcome to PacGuy New Challenger!")
+    game.splash("Welcome to Pac-Guy New Challenger!")
     effects.bubbles.startScreenEffect()
     game.showLongText("GOOD LUCK!", DialogLayout.Bottom)
     scene.setBackgroundImage(img`
